@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/asren/.ohos/config/default_HarmonyDemo_xYiUnVE1M0yRDCwROEVMhHhtRFGqaTxHisOM6rU6D5o=.cer",
+          "storePassword": "0000001BF3777D2B45B8E6CE23BF50699D542E13F58CA62573B3AF6DF20DDB062E419C16F932C58B6EAC7B",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B0AD1A3B99B4F8BCF01494D4E8095C7E857CB975C89200F07E3F9AF0FDB60A4699C95ECE6462F3E",
+          "profile": "/Users/asren/.ohos/config/default_HarmonyDemo_xYiUnVE1M0yRDCwROEVMhHhtRFGqaTxHisOM6rU6D5o=.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/asren/.ohos/config/default_HarmonyDemo_xYiUnVE1M0yRDCwROEVMhHhtRFGqaTxHisOM6rU6D5o=.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compatibleSdkVersion": "4.1.0(11)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

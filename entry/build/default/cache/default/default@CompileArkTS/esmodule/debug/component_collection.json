@@ -1,0 +1,85 @@
+{
+  "entry/src/main/ets/entryability/EntryAbility.ets": [
+    "If"
+  ],
+  "entry/src/main/ets/common/utils/GlobalContext.ets": [
+    "If"
+  ],
+  "entry/src/main/ets/common/database/FontSizeUtil.ets": [
+    "If"
+  ],
+  "entry/src/main/ets/pages/LoginPage.ets": [
+    "TextInput",
+    "Line",
+    "Text",
+    "Button",
+    "Circle",
+    "Image",
+    "Column",
+    "Row",
+    "LoadingProgress",
+    "Blank",
+    "If"
+  ],
+  "entry/src/main/ets/pages/MainPage.ets": [
+    "TabsController",
+    "Column",
+    "Image",
+    "Text",
+    "Tabs",
+    "TabContent"
+  ],
+  "entry/src/main/ets/view/Home.ets": [
+    "SwiperController",
+    "Scroll",
+    "Column",
+    "Text",
+    "Swiper",
+    "ForEach",
+    "Image",
+    "Grid",
+    "GridItem"
+  ],
+  "entry/src/main/ets/view/Setting.ets": [
+    "Row",
+    "Image",
+    "Text",
+    "Toggle",
+    "Scroll",
+    "Column",
+    "List",
+    "ForEach",
+    "ListItem",
+    "Blank",
+    "Button",
+    "If"
+  ],
+  "entry/src/main/ets/view/Doc.ets": [
+    "Column",
+    "Row",
+    "List",
+    "ForEach",
+    "ListItem",
+    "If"
+  ],
+  "entry/src/main/ets/view/SettingItemComponent.ets": [
+    "Row",
+    "Image",
+    "Text"
+  ],
+  "entry/src/main/ets/view/TitleBarComponent.ets": [
+    "Row",
+    "Image",
+    "Text",
+    "If"
+  ],
+  "entry/src/main/ets/viewmodel/HomeViewModel.ets": [
+    "If"
+  ],
+  "entry/src/main/ets/template/SettingFontSize.ets": [
+    "Column",
+    "Scroll",
+    "Text",
+    "Slider"
+  ]
+}

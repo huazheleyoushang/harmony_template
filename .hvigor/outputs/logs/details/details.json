@@ -1,0 +1,60 @@
+{
+  "HVIGOR_OHOS_PLUGIN": {
+    "MODULE_CONFIG": [
+      {
+        "MODULE_NAME": "entry",
+        "API_TYPE": "stageMode",
+        "TARGETS": [
+          {
+            "name": "default",
+            "runtimeOS": "HarmonyOS"
+          },
+          {
+            "name": "ohosTest",
+            "runtimeOS": "HarmonyOS"
+          }
+        ],
+        "DEVICE_TYPES": [
+          "phone"
+        ],
+        "AOT_COMPILE_MODE": "type"
+      }
+    ],
+    "PROJECT_CONFIG": {
+      "PRODUCTS": [
+        {
+          "NAME": "default",
+          "COMPATIBLE_SDK_VERSION": "4.1.0(11)",
+          "RUNTIMEOS": "HarmonyOS"
+        }
+      ],
+      "MODULES": [
+        {
+          "TARGETS": [
+            {
+              "NAME": "default"
+            }
+          ]
+        }
+      ],
+      "BUILD_MODE": "debug"
+    }
+  },
+  "totalTime": 16401648653,
+  "moduleNum": 1,
+  "taskTime": {
+    "compileArkTS": 1636211842,
+    "buildArkTS": 0,
+    "compileJS": 0,
+    "buildJS": 2098796,
+    "compileResource": 0,
+    "packageHap": 918402754,
+    "signHap": 13561358017
+  },
+  "isIncremental": true,
+  "hasIncremental": true,
+  "isParallel": true,
+  "IS_DAEMON": true,
+  "LOG_LEVEL": "INFO",
+  "IS_HVIGORFILE_TYPE_CHECK": false
+}

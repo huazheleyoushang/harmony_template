@@ -1,0 +1,1127 @@
+{
+  "runtimeOS": "HarmonyOS",
+  "sdkInfo": "false:12:5.0.0.22:Canary3",
+  "fileList": {
+    "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/entryability/EntryAbility.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/kits/@kit.AbilityKit.d.ts": {
+      "mtimeMs": 1715338340000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.ability.ability.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/ability/dataAbilityHelper.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/ability/dataAbilityOperation.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.ability.featureAbility.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/ability/startAbilityParameter.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/ability/abilityResult.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/app/context.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/bundle/applicationInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/bundle/hapModuleInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/bundle/abilityInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.bundle.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.multimedia.image.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.resourceManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.drawableDescriptor.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.rpc.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/bundle/bundleInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/ability/connectOptions.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.window.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/component/common.d.ts": {
+      "mtimeMs": 1715338340000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/Context.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/bundleManager/ApplicationInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.bundle.bundleManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/bundleManager/AbilityInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/bundleManager/BundleInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/bundleManager/HapModuleInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/bundleManager/ExtensionAbilityInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/ApplicationContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.AbilityLifecycleCallback.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.UIAbility.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.Ability.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.Configuration.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/UIAbilityContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.StartOptions.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.dialogRequest.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/AbilityStartCallback.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.AtomicServiceOptions.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.EnvironmentCallback.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/ProcessInformation.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.appManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.multimodalInput.pointer.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.data.unifiedDataChannel.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.observer.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/arkui/Graphics.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.graphics.drawing.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/arkui/ComponentContent.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.UIContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.mediaquery.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/component/units.d.ts": {
+      "mtimeMs": 1715338340000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.promptAction.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.router.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.node.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/arkui/BuilderNode.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/arkui/FrameNode.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/arkui/RenderNode.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/arkui/NodeController.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/arkui/XComponentNode.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.dragController.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.common.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/UIExtensionContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/ExtensionContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/AbilityStageContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/FormExtensionContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/VpnExtensionContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/application/EmbeddableUIAbilityContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.data.dataAbility.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.data.rdb.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.ability.particleAbility.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/notification/notificationRequest.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.notification.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/notification/notificationSlot.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.notificationManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/notification/notificationActionButton.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.wantAgent.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/wantAgent/wantAgentInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.wantAgent.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/wantAgent/triggerInfo.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/notification/notificationContent.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.abilityAccessCtrl.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.AbilityStage.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.ActionExtensionAbility.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.UIExtensionAbility.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.ExtensionAbility.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.UIExtensionContentSession.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.uiExtension.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.appRecovery.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.autoFillManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.childProcessManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.errorManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.InsightIntentContext.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.InsightIntentExecutor.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.ShareExtensionAbility.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.bundle.defaultAppManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.bundle.overlay.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.continuation.continuationManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/continuation/continuationExtraParams.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.privacyManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.ability.EmbeddedUIExtensionAbility.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.appstartup.StartupConfig.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.appstartup.StartupListener.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.appstartup.StartupConfigEntry.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.appstartup.StartupTask.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.app.appstartup.startupManager.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/kits/@kit.ArkUI.d.ts": {
+      "mtimeMs": 1715338340000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.Chip.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.ComposeListItem.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.ComposeTitleBar.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.Dialog.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.EditableTitleBar.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.Filter.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.SegmentButton.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.SelectTitleBar.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.SplitLayout.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.SubHeader.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.TabTitleBar.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.ToolBar.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.advanced.TreeView.d.ets": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.arkui.componentSnapshot.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.display.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.measure.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.PiPWindow.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.pluginComponent.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.prompt.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/kits/@kit.PerformanceAnalysisKit.d.ts": {
+      "mtimeMs": 1715338340000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.faultLogger.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.hiviewdfx.hiAppEvent.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [],
+      "parent": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/pages/LoginPage.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/pages/LoginPage.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Home.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Setting.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets"
+      ],
+      "parent": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [],
+      "parent": [
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/asren/Downloads/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/common.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/embedded_component.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/folder_stack.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/image.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/nav_destination.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/navigation.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/node_container.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/pattern_lock.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/units.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/build-tools/ets-loader/declarations/web.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.web.webview.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.security.cert.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.security.cryptoFramework.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.print.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/entryability/EntryAbility.ets": {
+      "mtimeMs": 1717074784622.5698,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/utils/GlobalContext.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/database/FontSizeUtil.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/CommonConstants.ets": {
+      "mtimeMs": 1717123797913.463,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/pages/LoginPage.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/pages/MainPage.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Setting.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/template/SettingFontSize.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/pages/LoginPage.ets": {
+      "mtimeMs": 1716545003347.9844,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Home.ets": {
+      "mtimeMs": 1717126192884.122,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Setting.ets": {
+      "mtimeMs": 1717142245253.5269,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/ItemData.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/MainViewModel.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets": {
+      "mtimeMs": 1717124591504.0137,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/SettingItemComponent.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/TitleBarComponent.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/HomeViewModel.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/StyleConstants.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/SettingData.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/utils/Logger.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/pages/MainPage.ets": {
+      "mtimeMs": 1717124651525.6614,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Setting.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/database/FontSizeUtil.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/MainViewModel.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/ItemData.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/utils/GlobalContext.ets": {
+      "mtimeMs": 1717074165065.9492,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/entryability/EntryAbility.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/database/FontSizeUtil.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/database/FontSizeUtil.ets": {
+      "mtimeMs": 1717123243314.0889,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/utils/GlobalContext.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/utils/Logger.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/entryability/EntryAbility.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/pages/MainPage.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/template/SettingFontSize.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/utils/Logger.ets": {
+      "mtimeMs": 1717073477819.2197,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/database/FontSizeUtil.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets"
+      ],
+      "error": false
+    },
+    "/Applications/DevEco-Studio.app/Contents/sdk/HarmonyOS-NEXT-DB1/openharmony/ets/api/@ohos.data.preferences.d.ts": {
+      "mtimeMs": 1715338336000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/SettingItemComponent.ets": {
+      "mtimeMs": 1717123962525.3867,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/SettingData.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/StyleConstants.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/TitleBarComponent.ets": {
+      "mtimeMs": 1693898104000,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/StyleConstants.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/HomeViewModel.ets": {
+      "mtimeMs": 1716818325248.2334,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/SettingData.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/StyleConstants.ets": {
+      "mtimeMs": 1717073146603.0452,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/SettingItemComponent.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/TitleBarComponent.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/SettingData.ets": {
+      "mtimeMs": 1693898104000,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/Doc.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/view/SettingItemComponent.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/viewmodel/HomeViewModel.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/template/SettingFontSize.ets": {
+      "mtimeMs": 1717123377103.2976,
+      "children": [
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/database/FontSizeUtil.ets",
+        "/Users/asren/Desktop/harmony/HarmonyDemo/entry/src/main/ets/common/constants/CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    }
+  }
+}
