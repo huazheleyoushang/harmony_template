@@ -1122,6 +1122,206 @@
       ],
       "parent": [],
       "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/utils/GlobalContext.ets": {
+      "mtimeMs": 1717074165065.9492,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/entryability/EntryAbility.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/database/FontSizeUtil.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/database/FontSizeUtil.ets": {
+      "mtimeMs": 1717123243314.0889,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/utils/GlobalContext.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/utils/Logger.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/entryability/EntryAbility.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/pages/MainPage.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/template/SettingFontSize.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/entryability/EntryAbility.ets": {
+      "mtimeMs": 1717144203990.9446,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/utils/GlobalContext.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/database/FontSizeUtil.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/utils/Logger.ets": {
+      "mtimeMs": 1717073477819.2197,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/database/FontSizeUtil.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Doc.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/CommonConstants.ets": {
+      "mtimeMs": 1717142570671.4011,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/pages/LoginPage.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/pages/MainPage.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Setting.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Doc.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/template/SettingFontSize.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/pages/LoginPage.ets": {
+      "mtimeMs": 1716545003347.9844,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/pages/GuidePage.ets": {
+      "mtimeMs": 1717144176534.9531,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Home.ets": {
+      "mtimeMs": 1717126192884.122,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Setting.ets": {
+      "mtimeMs": 1717142245253.5269,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/ItemData.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/MainViewModel.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Doc.ets": {
+      "mtimeMs": 1717124591504.0137,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/SettingItemComponent.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/TitleBarComponent.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/HomeViewModel.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/StyleConstants.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/SettingData.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/utils/Logger.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/pages/MainPage.ets": {
+      "mtimeMs": 1717124651525.6614,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Setting.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Doc.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/database/FontSizeUtil.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/MainViewModel.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/ItemData.ets": {
+      "mtimeMs": 1706169568000,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Home.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/SettingItemComponent.ets": {
+      "mtimeMs": 1717123962525.3867,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/SettingData.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/StyleConstants.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Doc.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/TitleBarComponent.ets": {
+      "mtimeMs": 1693898104000,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/StyleConstants.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Doc.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/HomeViewModel.ets": {
+      "mtimeMs": 1716818325248.2334,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/SettingData.ets"
+      ],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Doc.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/StyleConstants.ets": {
+      "mtimeMs": 1717073146603.0452,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Doc.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/SettingItemComponent.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/TitleBarComponent.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/SettingData.ets": {
+      "mtimeMs": 1693898104000,
+      "children": [],
+      "parent": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/Doc.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/view/SettingItemComponent.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/viewmodel/HomeViewModel.ets"
+      ],
+      "error": false
+    },
+    "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/template/SettingFontSize.ets": {
+      "mtimeMs": 1717123377103.2976,
+      "children": [
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/database/FontSizeUtil.ets",
+        "/Users/asren/Desktop/harmony/harmony_template/entry/src/main/ets/common/constants/CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
     }
   }
 }

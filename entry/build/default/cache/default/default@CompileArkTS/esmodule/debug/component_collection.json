@@ -21,6 +21,14 @@
     "Blank",
     "If"
   ],
+  "entry/src/main/ets/pages/GuidePage.ets": [
+    "SwiperController",
+    "Stack",
+    "Swiper",
+    "ForEach",
+    "Image",
+    "If"
+  ],
   "entry/src/main/ets/pages/MainPage.ets": [
     "TabsController",
     "Column",

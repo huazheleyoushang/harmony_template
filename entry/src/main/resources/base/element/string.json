@@ -10,7 +10,7 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "HarmonyDemo"
+      "value": "Harmony"
     },
     {
       "name": "login_page",
@@ -107,10 +107,6 @@
     {
       "name": "find_good",
       "value": "Find good things"
-    },
-    {
-      "name": "xiamen_station",
-      "value": "Xiamen Station, we'll see you."
     },
     {
       "name": "more_big_names",

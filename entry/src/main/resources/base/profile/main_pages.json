@@ -1,6 +1,7 @@
 {
   "src": [
     "pages/LoginPage",
+    "pages/GuidePage",
     "pages/MainPage",
     "template/SettingFontSize"
   ]

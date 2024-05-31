@@ -1,16 +1,16 @@
 {
   "modulePathMap": {
-    "entry": "/Users/asren/Desktop/harmony/HarmonyDemo/entry"
+    "entry": "/Users/asren/Desktop/harmony/harmony_template/entry"
   },
   "compileMode": "esmodule",
-  "projectRootPath": "/Users/asren/Desktop/harmony/HarmonyDemo",
-  "nodeModulesPath": "/Users/asren/Desktop/harmony/HarmonyDemo/entry/build/default/intermediates/loader_out/default/node_modules",
+  "projectRootPath": "/Users/asren/Desktop/harmony/harmony_template",
+  "nodeModulesPath": "/Users/asren/Desktop/harmony/harmony_template/entry/build/default/intermediates/loader_out/default/node_modules",
   "moduleName": "entry",
   "harNameOhmMap": {},
   "packageManagerType": "ohpm",
   "compileEntry": [],
   "dynamicImportLibInfo": {},
   "routerMap": [],
-  "anBuildOutPut": "/Users/asren/Desktop/harmony/HarmonyDemo/entry/build/default/intermediates/loader_out/default/an/arm64-v8a",
+  "anBuildOutPut": "/Users/asren/Desktop/harmony/harmony_template/entry/build/default/intermediates/loader_out/default/an/arm64-v8a",
   "anBuildMode": "type"
 }

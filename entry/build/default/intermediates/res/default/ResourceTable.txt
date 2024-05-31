@@ -165,6 +165,10 @@ float title_ic_size 0x010000d6
 float title_padding_left 0x010000d7
 float title_text_margin_left 0x010000d8
 float vertical_line_margin 0x01000091
+media IMG_01 0x010000d9
+media IMG_02 0x010000da
+media IMG_03 0x010000db
+media IMG_04 0x010000dc
 media about 0x01000092
 media account 0x01000093
 media app_icon 0x01000001

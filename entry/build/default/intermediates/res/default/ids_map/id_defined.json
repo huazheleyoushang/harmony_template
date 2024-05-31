@@ -867,5 +867,21 @@
 			"type":	"float",
 			"name":	"title_text_margin_left",
 			"id":	"0x010000D8"
+		}, {
+			"type":	"media",
+			"name":	"IMG_01",
+			"id":	"0x010000D9"
+		}, {
+			"type":	"media",
+			"name":	"IMG_02",
+			"id":	"0x010000DA"
+		}, {
+			"type":	"media",
+			"name":	"IMG_03",
+			"id":	"0x010000DB"
+		}, {
+			"type":	"media",
+			"name":	"IMG_04",
+			"id":	"0x010000DC"
 		}]
 }
