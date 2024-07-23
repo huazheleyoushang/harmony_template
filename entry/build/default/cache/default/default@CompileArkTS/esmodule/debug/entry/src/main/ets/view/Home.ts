@@ -70,18 +70,10 @@ export default class Home extends ViewPU {
             Column.width(CommonConstants.FULL_PARENT);
             Column.alignItems(HorizontalAlign.Start);
         }, Column);
-        this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Text.create({ "id": 16777239, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.fontWeight(FontWeight.Medium);
-            Text.fontSize({ "id": 16777338, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.margin({ top: { "id": 16777330, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            Text.padding({ left: { "id": 16777331, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-        }, Text);
-        Text.pop();
         Column.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Swiper.create(this.swiperController);
-            Swiper.margin({ top: { "id": 16777308, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Swiper.margin({ top: { "id": 16777320, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Swiper.autoPlay(true);
         }, Swiper);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
@@ -90,7 +82,7 @@ export default class Home extends ViewPU {
                 const img = _item;
                 this.observeComponentCreation2((elmtId, isInitialRender) => {
                     Image.create(img);
-                    Image.borderRadius({ "id": 16777307, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                    Image.borderRadius({ "id": 16777319, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                 }, Image);
             };
             this.forEachUpdateFunction(elmtId, mainViewModel.getSwiperImages(), forEachItemGenFunction, (img: Resource) => JSON.stringify(img.id), false, false);
@@ -101,12 +93,12 @@ export default class Home extends ViewPU {
             Grid.create();
             Grid.columnsTemplate('1fr 1fr 1fr 1fr');
             Grid.rowsTemplate('1fr 1fr');
-            Grid.columnsGap({ "id": 16777294, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Grid.rowsGap({ "id": 16777298, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Grid.padding({ top: { "id": 16777297, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777297, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            Grid.height({ "id": 16777295, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Grid.columnsGap({ "id": 16777306, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Grid.rowsGap({ "id": 16777310, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Grid.padding({ top: { "id": 16777309, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777309, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Grid.height({ "id": 16777307, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Grid.backgroundColor(Color.White);
-            Grid.borderRadius({ "id": 16777293, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Grid.borderRadius({ "id": 16777305, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
         }, Grid);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             ForEach.create();
@@ -123,13 +115,13 @@ export default class Home extends ViewPU {
                         }, Column);
                         this.observeComponentCreation2((elmtId, isInitialRender) => {
                             Image.create(item.img);
-                            Image.width({ "id": 16777301, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                            Image.height({ "id": 16777301, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.width({ "id": 16777313, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Image.height({ "id": 16777313, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         }, Image);
                         this.observeComponentCreation2((elmtId, isInitialRender) => {
                             Text.create(item.title);
                             Text.fontSize(this.changeFontSize);
-                            Text.margin({ top: { "id": 16777300, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                            Text.margin({ top: { "id": 16777312, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
                         }, Text);
                         Text.pop();
                         Column.pop();
@@ -143,22 +135,22 @@ export default class Home extends ViewPU {
         ForEach.pop();
         Grid.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Text.create({ "id": 16777230, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.create({ "id": 16777234, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.fontSize(this.changeFontSizeTitle);
             Text.fontWeight(FontWeight.Medium);
             Text.width(CommonConstants.FULL_PARENT);
-            Text.margin({ top: { "id": 16777309, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.margin({ top: { "id": 16777321, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
         }, Text);
         Text.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Grid.create();
             Grid.width(CommonConstants.FULL_PARENT);
-            Grid.height({ "id": 16777305, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Grid.height({ "id": 16777317, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Grid.columnsTemplate('1fr 1fr');
             Grid.rowsTemplate('1fr 1fr');
-            Grid.columnsGap({ "id": 16777294, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Grid.rowsGap({ "id": 16777298, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Grid.margin({ bottom: { "id": 16777346, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Grid.columnsGap({ "id": 16777306, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Grid.rowsGap({ "id": 16777310, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Grid.margin({ bottom: { "id": 16777358, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
         }, Grid);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             ForEach.create();
@@ -167,8 +159,8 @@ export default class Home extends ViewPU {
                 {
                     const itemCreation2 = (elmtId, isInitialRender) => {
                         GridItem.create(() => { }, false);
-                        GridItem.padding({ top: { "id": 16777304, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, left: { "id": 16777304, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-                        GridItem.borderRadius({ "id": 16777292, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        GridItem.padding({ top: { "id": 16777316, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, left: { "id": 16777316, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                        GridItem.borderRadius({ "id": 16777304, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         GridItem.align(Alignment.TopStart);
                         GridItem.backgroundImage(secondItem.img);
                         GridItem.backgroundImageSize(ImageSize.Cover);
@@ -189,9 +181,9 @@ export default class Home extends ViewPU {
                         Text.pop();
                         this.observeComponentCreation2((elmtId, isInitialRender) => {
                             Text.create(secondItem.others);
-                            Text.margin({ top: { "id": 16777303, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                            Text.margin({ top: { "id": 16777315, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
                             Text.fontSize(this.changeFontSize);
-                            Text.fontColor({ "id": 16777274, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                            Text.fontColor({ "id": 16777285, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                         }, Text);
                         Text.pop();
                         Column.pop();

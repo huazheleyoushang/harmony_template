@@ -31,6 +31,19 @@
           }
         ]
       }
+    ],
+    "requestPermissions": [
+      // 网络权限
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.ACCESS_BLUETOOTH",
+        "reason": "$string:bluetooth",
+        "usedScene": {
+          "when": "always"
+        }
+      }
     ]
   }
 }

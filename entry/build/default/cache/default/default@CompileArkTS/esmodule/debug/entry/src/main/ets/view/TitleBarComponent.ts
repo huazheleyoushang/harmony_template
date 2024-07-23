@@ -14,7 +14,7 @@ export default class TitleBarComponent extends ViewPU {
             this.paramsGenerator_ = paramsLambda;
         }
         this.isBack = true;
-        this.title = { "id": 16777379, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
+        this.title = { "id": 16777225, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
         this.setInitiallyProvidedValue(params);
         this.finalizeConstruction();
     }
@@ -41,17 +41,17 @@ export default class TitleBarComponent extends ViewPU {
             Row.create();
             Row.width(StyleConstants.FULL_WIDTH);
             Row.height(StyleConstants.TITLE_BAR_HEIGHT_PERCENT);
-            Row.padding({ left: { "id": 16777431, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Row.padding({ left: { "id": 16777381, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
         }, Row);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             If.create();
             if (this.isBack) {
                 this.ifElseBranchUpdateFunction(0, () => {
                     this.observeComponentCreation2((elmtId, isInitialRender) => {
-                        Image.create({ "id": 16777414, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                        Image.height({ "id": 16777430, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                        Image.width({ "id": 16777430, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-                        Image.margin({ right: { "id": 16777429, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+                        Image.create({ "id": 16777409, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        Image.height({ "id": 16777380, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        Image.width({ "id": 16777380, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                        Image.margin({ right: { "id": 16777379, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
                         Image.onClick(() => {
                             router.back();
                         });
@@ -69,7 +69,7 @@ export default class TitleBarComponent extends ViewPU {
             Text.fontColor(Color.Black);
             Text.fontSize({ "id": 125829676, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Medium);
-            Text.margin({ left: { "id": 16777432, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.margin({ left: { "id": 16777382, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
         }, Text);
         Text.pop();
         Row.pop();

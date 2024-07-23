@@ -56,21 +56,21 @@ export default class SettingItemComponent extends ViewPU {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Row.create();
             Row.width(StyleConstants.FULL_WIDTH);
-            Row.height({ "id": 16777427, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Row.height({ "id": 16777363, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Row.onClick(() => {
                 this.itemClick();
             });
         }, Row);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Image.create(this.setting.settingImage);
-            Image.height({ "id": 16777428, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.width({ "id": 16777428, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.margin({ left: { "id": 16777423, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777424, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Image.height({ "id": 16777364, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777364, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.margin({ left: { "id": 16777359, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777360, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create(this.setting.settingName);
             Text.fontSize(this.changeFontSize + StyleConstants.UNIT_FP);
-            Text.fontColor({ "id": 16777381, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontColor({ "id": 16777299, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Text.fontWeight(FontWeight.Medium);
         }, Text);
         Text.pop();

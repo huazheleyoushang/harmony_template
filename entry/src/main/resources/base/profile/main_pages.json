@@ -3,6 +3,7 @@
     "pages/LoginPage",
     "pages/GuidePage",
     "pages/MainPage",
-    "template/SettingFontSize"
+    "template/SettingFontSize",
+    "template/Bluetooth"
   ]
 }

@@ -568,6 +568,10 @@
 			"name":	"icon",
 			"id":	"0x0100008D"
 		}, {
+			"type":	"string",
+			"name":	"bluetooth",
+			"id":	"0x0100008E"
+		}, {
 			"type":	"media",
 			"name":	"search",
 			"id":	"0x0100008F"
@@ -715,6 +719,10 @@
 			"type":	"media",
 			"name":	"discover_selected",
 			"id":	"0x010000B3"
+		}, {
+			"type":	"media",
+			"name":	"IMG_02",
+			"id":	"0x010000B4"
 		}, {
 			"type":	"media",
 			"name":	"shopping",
@@ -867,5 +875,41 @@
 			"type":	"string",
 			"name":	"empty",
 			"id":	"0x010000DA"
+		}, {
+			"type":	"media",
+			"name":	"ic_bluetooth",
+			"id":	"0x010000DB"
+		}, {
+			"type":	"media",
+			"name":	"IMG_04",
+			"id":	"0x010000DC"
+		}, {
+			"type":	"media",
+			"name":	"IMG_03",
+			"id":	"0x010000DD"
+		}, {
+			"type":	"media",
+			"name":	"IMG_01",
+			"id":	"0x010000DE"
+		}, {
+			"type":	"media",
+			"name":	"nav",
+			"id":	"0x010000DF"
+		}, {
+			"type":	"media",
+			"name":	"banner",
+			"id":	"0x010000E0"
+		}, {
+			"type":	"media",
+			"name":	"btn",
+			"id":	"0x010000E1"
+		}, {
+			"type":	"media",
+			"name":	"icon_1",
+			"id":	"0x010000E2"
+		}, {
+			"type":	"media",
+			"name":	"icon_right",
+			"id":	"0x010000E3"
 		}]
 }

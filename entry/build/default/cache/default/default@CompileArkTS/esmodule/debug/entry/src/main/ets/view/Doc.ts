@@ -58,12 +58,12 @@ export default class Doc extends ViewPU {
         {
             this.observeComponentCreation2((elmtId, isInitialRender) => {
                 if (isInitialRender) {
-                    let componentCall = new TitleBarComponent(this, { isBack: false, title: { "id": 16777380, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } }, undefined, elmtId, () => { }, { page: "entry/src/main/ets/view/Doc.ets", line: 20 });
+                    let componentCall = new TitleBarComponent(this, { isBack: false, title: { "id": 16777233, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" } }, undefined, elmtId, () => { }, { page: "entry/src/main/ets/view/Doc.ets", line: 20 });
                     ViewPU.create(componentCall);
                     let paramsLambda = () => {
                         return {
                             isBack: false,
-                            title: { "id": 16777380, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
+                            title: { "id": 16777233, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" }
                         };
                     };
                     componentCall.paramsGenerator_ = paramsLambda;
@@ -74,6 +74,7 @@ export default class Doc extends ViewPU {
             }, { name: "TitleBarComponent" });
         }
         this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // 第一栏
             Row.create();
             __Row__blockBackground(StyleConstants.BLOCK_TOP_MARGIN_FIRST_PERCENT);
         }, Row);
@@ -83,14 +84,18 @@ export default class Doc extends ViewPU {
                     let componentCall = new SettingItemComponent(this, {
                         setting: this.settingArr[CommonConstants.DISPLAY_INDEX],
                         changeFontSize: this.changeFontSize,
-                        itemClick: () => { }
+                        itemClick: () => {
+                            // TODO:
+                        }
                     }, undefined, elmtId, () => { }, { page: "entry/src/main/ets/view/Doc.ets", line: 23 });
                     ViewPU.create(componentCall);
                     let paramsLambda = () => {
                         return {
                             setting: this.settingArr[CommonConstants.DISPLAY_INDEX],
                             changeFontSize: this.changeFontSize,
-                            itemClick: () => { }
+                            itemClick: () => {
+                                // TODO:
+                            }
                         };
                     };
                     componentCall.paramsGenerator_ = paramsLambda;
@@ -102,12 +107,15 @@ export default class Doc extends ViewPU {
                 }
             }, { name: "SettingItemComponent" });
         }
+        // 第一栏
         Row.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
+            // 第二栏
             Row.create();
             __Row__blockBackground(StyleConstants.BLOCK_TOP_MARGIN_SECOND_PERCENT);
         }, Row);
-        this.SettingItems.bind(this)();
+        this.SettingItems.bind(this)(this);
+        // 第二栏
         Row.pop();
         Column.pop();
     }
@@ -115,9 +123,9 @@ export default class Doc extends ViewPU {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             List.create();
             List.divider({
-                strokeWidth: { "id": 16777426, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                strokeWidth: { "id": 16777362, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                 color: '#0d182431',
-                startMargin: { "id": 16777425, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
+                startMargin: { "id": 16777361, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" },
                 endMargin: StyleConstants.DIVIDER_END_MARGIN_PERCENT
             });
         }, List);
@@ -142,26 +150,38 @@ export default class Doc extends ViewPU {
                         {
                             this.observeComponentCreation2((elmtId, isInitialRender) => {
                                 if (isInitialRender) {
-                                    let componentCall = new SettingItemComponent(this, { setting: item, changeFontSize: this.changeFontSize, itemClick: () => {
-                                            if (index === CommonConstants.SET_FONT_INDEX) {
+                                    let componentCall = new SettingItemComponent(ViewPU.__proto__ !== NativeViewPartialUpdate && parent instanceof PUV2ViewBase ? parent : this, { setting: item, changeFontSize: this.changeFontSize, itemClick: () => {
+                                            Logger.info(TAG, JSON.stringify(item));
+                                            if (index === 5) {
                                                 router.pushUrl({
                                                     url: 'template/SettingFontSize'
                                                 }).catch((error: Error) => {
                                                     Logger.info(TAG, 'HomePage push error' + JSON.stringify(error));
                                                 });
                                             }
-                                        } }, undefined, elmtId, () => { }, { page: "entry/src/main/ets/view/Doc.ets", line: 46 });
+                                            else if (index === 6) {
+                                                router.pushUrl({
+                                                    url: 'template/Bluetooth'
+                                                });
+                                            }
+                                        } }, undefined, elmtId, () => { }, { page: "entry/src/main/ets/view/Doc.ets", line: 48 });
                                     ViewPU.create(componentCall);
                                     let paramsLambda = () => {
                                         return {
                                             setting: item,
                                             changeFontSize: this.changeFontSize,
                                             itemClick: () => {
-                                                if (index === CommonConstants.SET_FONT_INDEX) {
+                                                Logger.info(TAG, JSON.stringify(item));
+                                                if (index === 5) {
                                                     router.pushUrl({
                                                         url: 'template/SettingFontSize'
                                                     }).catch((error: Error) => {
                                                         Logger.info(TAG, 'HomePage push error' + JSON.stringify(error));
+                                                    });
+                                                }
+                                                else if (index === 6) {
+                                                    router.pushUrl({
+                                                        url: 'template/Bluetooth'
                                                     });
                                                 }
                                             }
@@ -182,7 +202,7 @@ export default class Doc extends ViewPU {
                     ListItem.pop();
                 }
             };
-            this.forEachUpdateFunction(elmtId, this.settingArr.slice(CommonConstants.START_INDEX, CommonConstants.END_INDEX), forEachItemGenFunction, (item: SettingData) => JSON.stringify(item), true, false);
+            this.forEachUpdateFunction(elmtId, this.settingArr, forEachItemGenFunction, (item: SettingData) => JSON.stringify(item), true, false);
         }, ForEach);
         ForEach.pop();
         List.pop();
@@ -201,4 +221,4 @@ function __Row__blockBackground(marginTop: string): void {
     Row.width(StyleConstants.BLOCK_WIDTH_PERCENT);
     Row.padding({ top: 4, bottom: 4 });
 }
-registerNamedRoute(() => new Doc(undefined, {}), "", { bundleName: "com.example.component", moduleName: "entry", pagePath: "view/Doc", integratedHsp: "false" });
+registerNamedRoute(() => new Doc(undefined, {}), "", { bundleName: "com.example.component", moduleName: "entry", pagePath: "view/Doc", pageFullPath: "entry/src/main/ets/view/Doc", integratedHsp: "false" });

@@ -4,6 +4,7 @@ string about 0x01000057
 string account 0x01000058
 string app_name 0x01000000
 string big_name_flash 0x01000059
+string bluetooth 0x0100008e
 string clear_cache 0x0100005a
 string data_management 0x0100005b
 string empty 0x010000da
@@ -165,11 +166,17 @@ float title_ic_size 0x010000d7
 float title_padding_left 0x010000d8
 float title_text_margin_left 0x010000d9
 float vertical_line_margin 0x0100004f
+media IMG_01 0x010000de
+media IMG_02 0x010000b4
+media IMG_03 0x010000dd
+media IMG_04 0x010000dc
 media about 0x010000b1
 media account 0x010000b2
 media app_icon 0x01000001
 media arrow 0x01000054
+media banner 0x010000e0
 media brand 0x010000b7
+media btn 0x010000e1
 media circle 0x010000ac
 media data 0x01000002
 media discover_normal 0x010000a4
@@ -185,6 +192,7 @@ media found 0x010000ae
 media home_normal 0x01000003
 media home_selected 0x010000a5
 media ic_app_management 0x010000c6
+media ic_bluetooth 0x010000db
 media ic_display_and_brightness 0x010000c9
 media ic_privacy 0x010000cc
 media ic_public_back 0x010000cb
@@ -192,6 +200,8 @@ media ic_setting_the_font_size 0x010000c8
 media ic_storage 0x010000cd
 media ic_voice 0x010000cf
 media icon 0x0100008d
+media icon_1 0x010000e2
+media icon_right 0x010000e3
 media left_head 0x010000ce
 media login_QR 0x010000bb
 media login_weibo 0x010000b8
@@ -202,6 +212,7 @@ media menu 0x01000005
 media message 0x010000af
 media mine_normal 0x010000aa
 media mine_selected 0x01000091
+media nav 0x010000df
 media new 0x010000ab
 media news 0x01000052
 media privacy 0x01000050

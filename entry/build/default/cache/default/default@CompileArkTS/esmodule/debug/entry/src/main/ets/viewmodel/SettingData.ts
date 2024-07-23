@@ -19,9 +19,9 @@ export default class SettingData {
     /**
      * Setting list item name.
      */
-    settingName: Resource = { "id": 16777379, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
+    settingName: Resource = { "id": 16777225, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
     /**
      * Setting list item image.
      */
-    settingImage: Resource = { "id": 16777379, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
+    settingImage: Resource = { "id": 16777225, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
 }

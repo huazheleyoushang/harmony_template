@@ -5,13 +5,13 @@
         "name": "default",
         "type": "HarmonyOS",
         "material": {
-          "certpath": "/Users/asren/.ohos/config/default_HarmonyDemo_xYiUnVE1M0yRDCwROEVMhHhtRFGqaTxHisOM6rU6D5o=.cer",
-          "storePassword": "0000001BF3777D2B45B8E6CE23BF50699D542E13F58CA62573B3AF6DF20DDB062E419C16F932C58B6EAC7B",
+          "certpath": "/Users/asren/.ohos/config/default_harmony_template_QtQZhFRQjRsTMH3zfHRzQDsL3eyNY9NgSGBWY4S-dP4=.cer",
+          "storePassword": "0000001B1D8E402DD38E9A5846AF85A57F99595772619CDEF0BDF47C9126E3DABB3F0D31355AA032DB1B4D",
           "keyAlias": "debugKey",
-          "keyPassword": "0000001B0AD1A3B99B4F8BCF01494D4E8095C7E857CB975C89200F07E3F9AF0FDB60A4699C95ECE6462F3E",
-          "profile": "/Users/asren/.ohos/config/default_HarmonyDemo_xYiUnVE1M0yRDCwROEVMhHhtRFGqaTxHisOM6rU6D5o=.p7b",
+          "keyPassword": "0000001B622CA85EE4392A5E482BA10DF22DB1ECD1208900FD135026BEE31EBC779B423AEA8FA40FD309B0",
+          "profile": "/Users/asren/.ohos/config/default_harmony_template_QtQZhFRQjRsTMH3zfHRzQDsL3eyNY9NgSGBWY4S-dP4=.p7b",
           "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/asren/.ohos/config/default_HarmonyDemo_xYiUnVE1M0yRDCwROEVMhHhtRFGqaTxHisOM6rU6D5o=.p12"
+          "storeFile": "/Users/asren/.ohos/config/default_harmony_template_QtQZhFRQjRsTMH3zfHRzQDsL3eyNY9NgSGBWY4S-dP4=.p12"
         }
       }
     ],

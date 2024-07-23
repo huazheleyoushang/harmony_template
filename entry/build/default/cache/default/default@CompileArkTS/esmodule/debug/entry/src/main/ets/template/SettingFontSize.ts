@@ -87,4 +87,4 @@ class SettingFontSize extends ViewPU {
         return "SettingFontSize";
     }
 }
-registerNamedRoute(() => new SettingFontSize(undefined, {}), "", { bundleName: "com.example.component", moduleName: "entry", pagePath: "template/SettingFontSize", integratedHsp: "false" });
+registerNamedRoute(() => new SettingFontSize(undefined, {}), "", { bundleName: "com.example.component", moduleName: "entry", pagePath: "template/SettingFontSize", pageFullPath: "entry/src/main/ets/template/SettingFontSize", integratedHsp: "false" });

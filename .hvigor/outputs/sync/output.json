@@ -47,6 +47,26 @@
           "debuggable": true
         }
       }
+    },
+    "BUILD_OPTION": {
+      "default-default": {
+        "debuggable": true,
+        "copyFrom": "default"
+      }
+    },
+    "BUILD_PROFILE_OPT": {
+      "apiType": "stageMode",
+      "buildOption": {},
+      "targets": [
+        {
+          "name": "default",
+          "runtimeOS": "HarmonyOS"
+        },
+        {
+          "name": "ohosTest",
+          "runtimeOS": "HarmonyOS"
+        }
+      ]
     }
   },
   "ohos-project": {
@@ -55,6 +75,65 @@
     "BUNDLE_NAME": "com.example.component",
     "BUILD_PATH": {
       "OUTPUT_PATH": "/Users/asren/Desktop/harmony/harmony_template/build/outputs/default"
+    },
+    "MODULES": [
+      {
+        "name": "entry",
+        "srcPath": "/Users/asren/Desktop/harmony/harmony_template/entry",
+        "targets": [
+          {
+            "name": "default",
+            "applyToProducts": [
+              "default"
+            ]
+          }
+        ]
+      }
+    ],
+    "PROFILE_OPT": {
+      "app": {
+        "signingConfigs": [
+          {
+            "name": "default",
+            "type": "HarmonyOS",
+            "material": {
+              "certpath": "/Users/asren/.ohos/config/default_harmony_template_QtQZhFRQjRsTMH3zfHRzQDsL3eyNY9NgSGBWY4S-dP4=.cer",
+              "storePassword": "0000001B1D8E402DD38E9A5846AF85A57F99595772619CDEF0BDF47C9126E3DABB3F0D31355AA032DB1B4D",
+              "keyAlias": "debugKey",
+              "keyPassword": "0000001B622CA85EE4392A5E482BA10DF22DB1ECD1208900FD135026BEE31EBC779B423AEA8FA40FD309B0",
+              "profile": "/Users/asren/.ohos/config/default_harmony_template_QtQZhFRQjRsTMH3zfHRzQDsL3eyNY9NgSGBWY4S-dP4=.p7b",
+              "signAlg": "SHA256withECDSA",
+              "storeFile": "/Users/asren/.ohos/config/default_harmony_template_QtQZhFRQjRsTMH3zfHRzQDsL3eyNY9NgSGBWY4S-dP4=.p12"
+            }
+          }
+        ],
+        "products": [
+          {
+            "name": "default",
+            "signingConfig": "default",
+            "compatibleSdkVersion": "4.1.0(11)",
+            "runtimeOS": "HarmonyOS"
+          }
+        ]
+      },
+      "modules": [
+        {
+          "name": "entry",
+          "srcPath": "./entry",
+          "targets": [
+            {
+              "name": "default",
+              "applyToProducts": [
+                "default"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "CONFIG_PROPERTIES": {
+      "enableSignTask": true,
+      "skipNativeIncremental": false
     }
   },
   "version": 1

@@ -31,6 +31,10 @@ export class HomeViewModel {
             settingData.settingName = { "id": 16777408, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
             settingData.settingImage = { "id": 16777416, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
             this.settingArr.push(settingData);
+            settingData = new SettingData();
+            settingData.settingName = { "id": 16777358, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
+            settingData.settingImage = { "id": 16777435, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" };
+            this.settingArr.push(settingData);
         }
         return this.settingArr;
     }

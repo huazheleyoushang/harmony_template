@@ -41,12 +41,12 @@
     "SwiperController",
     "Scroll",
     "Column",
-    "Text",
     "Swiper",
     "ForEach",
     "Image",
     "Grid",
-    "GridItem"
+    "GridItem",
+    "Text"
   ],
   "entry/src/main/ets/view/Setting.ets": [
     "Row",
@@ -89,5 +89,20 @@
     "Scroll",
     "Text",
     "Slider"
+  ],
+  "entry/src/main/ets/template/Bluetooth.ets": [
+    "CustomDialogController",
+    "Column",
+    "Row",
+    "Text",
+    "Button",
+    "If"
+  ],
+  "entry/src/main/ets/components/CustomDialog.ets": [
+    "CustomDialogController",
+    "Column",
+    "Text",
+    "Flex",
+    "Button"
   ]
 }

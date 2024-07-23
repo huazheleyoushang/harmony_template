@@ -18,16 +18,18 @@ export default struct Doc {
   build() {
     Column() {
       TitleBarComponent({ isBack: false, title: $r('app.string.home_doc') })
-
+      // 第一栏
       Row() {
         SettingItemComponent({
           setting: this.settingArr[CommonConstants.DISPLAY_INDEX],
           changeFontSize: this.changeFontSize,
-          itemClick: () => {}
+          itemClick: () => {
+           // TODO:
+          }
         })
       }
       .blockBackground(StyleConstants.BLOCK_TOP_MARGIN_FIRST_PERCENT)
-
+      // 第二栏
       Row() {
         this.SettingItems()
       }
@@ -40,16 +42,21 @@ export default struct Doc {
 
   @Builder SettingItems() {
     List() {
-      ForEach(this.settingArr.slice(CommonConstants.START_INDEX, CommonConstants.END_INDEX),
+      ForEach(this.settingArr,
         (item: SettingData, index?: number) => {
           ListItem() {
             SettingItemComponent({ setting: item, changeFontSize: this.changeFontSize, itemClick: () => {
-              if (index === CommonConstants.SET_FONT_INDEX) {
+              Logger.info(TAG, JSON.stringify(item))
+              if (index === 5) {
                 router.pushUrl({
                   url: 'template/SettingFontSize'
                 }).catch((error: Error) => {
                   Logger.info(TAG, 'HomePage push error' + JSON.stringify(error));
                 });
+              } else if (index === 6) {
+                router.pushUrl({
+                  url: 'template/Bluetooth'
+                })
               }
             } })
           }

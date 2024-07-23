@@ -28,8 +28,21 @@ export default class entryAbility extends UIAbility {
         // Main window is created, set main page for this ability
         hilog.isLoggable(0x0000, 'testTag', hilog.LogLevel.INFO);
         hilog.info(0x0000, 'testTag', '%{public}s', 'Ability onWindowStageCreate');
+        windowStage.getMainWindow((err, mainWindow: window.Window) => {
+            if (err.code) {
+                hilog.error(0x0000, 'Failed to get main window. Cause: %{public}s', JSON.stringify(err) ?? '');
+                return;
+            }
+            // 设置全屏(沉浸式)
+            mainWindow.setWindowLayoutFullScreen(true);
+        });
         // 首页入口配置
-        windowStage.loadContent('pages/MainPage', (err, data) => {
+        /**
+         * 引导页面
+         * pages/GuidePage
+         * pages/MainPage
+         */
+        windowStage.loadContent('pages/GuidePage', (err, data) => {
             if (err.code) {
                 hilog.isLoggable(0x0000, 'testTag', hilog.LogLevel.ERROR);
                 hilog.error(0x0000, 'testTag', 'Failed to load the content. Cause: %{public}s', JSON.stringify(err) ?? '');

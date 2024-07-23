@@ -273,9 +273,9 @@ class LoginPage extends ViewPU {
             Row.create({ space: CommonConstants.LOGIN_METHODS_SPACE });
             Row.debugLine("entry/src/main/ets/pages/LoginPage.ets(142:7)");
         }, Row);
-        this.imageButton.bind(this)({ "id": 16777402, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-        this.imageButton.bind(this)({ "id": 16777400, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-        this.imageButton.bind(this)({ "id": 16777403, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+        this.imageButton.bind(this)({ "id": 16777402, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, this);
+        this.imageButton.bind(this)({ "id": 16777400, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, this);
+        this.imageButton.bind(this)({ "id": 16777403, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, this);
         Row.pop();
         Column.pop();
     }
@@ -286,4 +286,4 @@ class LoginPage extends ViewPU {
         return "LoginPage";
     }
 }
-registerNamedRoute(() => new LoginPage(undefined, {}), "", { bundleName: "com.example.component", moduleName: "entry", pagePath: "pages/LoginPage", integratedHsp: "false" });
+registerNamedRoute(() => new LoginPage(undefined, {}), "", { bundleName: "com.example.component", moduleName: "entry", pagePath: "pages/LoginPage", pageFullPath: "entry/src/main/ets/pages/LoginPage", integratedHsp: "false" });

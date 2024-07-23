@@ -71,7 +71,7 @@ class MainPage extends ViewPU {
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Column.create();
             Column.justifyContent(FlexAlign.Center);
-            Column.height({ "id": 16777325, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Column.height({ "id": 16777337, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Column.width(CommonConstants.FULL_PARENT);
             Column.onClick(() => {
                 this.currentIndex = index;
@@ -80,14 +80,14 @@ class MainPage extends ViewPU {
         }, Column);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Image.create(this.currentIndex === index ? selectedImg : normalImg);
-            Image.width({ "id": 16777327, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Image.height({ "id": 16777327, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.width({ "id": 16777339, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Image.height({ "id": 16777339, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
         }, Image);
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Text.create(title);
-            Text.margin({ top: { "id": 16777328, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            Text.margin({ top: { "id": 16777340, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             Text.fontSize(this.changeFontSize);
-            Text.fontColor(this.currentIndex === index ? { "id": 16777282, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" } : { "id": 16777281, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Text.fontColor(this.currentIndex === index ? { "id": 16777293, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" } : { "id": 16777292, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
         }, Text);
         Text.pop();
         Column.pop();
@@ -100,7 +100,7 @@ class MainPage extends ViewPU {
             });
             Tabs.width(CommonConstants.FULL_PARENT);
             Tabs.backgroundColor(Color.White);
-            Tabs.barHeight({ "id": 16777325, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            Tabs.barHeight({ "id": 16777337, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             Tabs.barMode(BarMode.Fixed);
             Tabs.onChange((index: number) => {
                 this.currentIndex = index;
@@ -124,10 +124,10 @@ class MainPage extends ViewPU {
                     }, { name: "Home" });
                 }
             });
-            TabContent.padding({ left: { "id": 16777329, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777329, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            TabContent.backgroundColor({ "id": 16777280, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TabContent.padding({ left: { "id": 16777341, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777341, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TabContent.backgroundColor({ "id": 16777291, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TabContent.tabBar({ builder: () => {
-                    this.TabBuilder.call(this, CommonConstants.HOME_TITLE, CommonConstants.HOME_TAB_INDEX, { "id": 16777377, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777376, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                    this.TabBuilder.call(this, CommonConstants.HOME_TITLE, CommonConstants.HOME_TAB_INDEX, { "id": 16777405, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777404, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                 } });
         }, TabContent);
         TabContent.pop();
@@ -151,10 +151,10 @@ class MainPage extends ViewPU {
                     }, { name: "Doc" });
                 }
             });
-            TabContent.padding({ left: { "id": 16777329, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777329, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            TabContent.backgroundColor({ "id": 16777280, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TabContent.padding({ left: { "id": 16777341, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777341, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TabContent.backgroundColor({ "id": 16777291, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TabContent.tabBar({ builder: () => {
-                    this.TabBuilder.call(this, CommonConstants.DOC_TITLE, CommonConstants.DOC_TAB_INDEX, { "id": 16777410, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777409, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                    this.TabBuilder.call(this, CommonConstants.DOC_TITLE, CommonConstants.DOC_TAB_INDEX, { "id": 16777397, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777396, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                 } });
         }, TabContent);
         TabContent.pop();
@@ -176,10 +176,10 @@ class MainPage extends ViewPU {
                     }, { name: "Setting" });
                 }
             });
-            TabContent.padding({ left: { "id": 16777329, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777329, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            TabContent.backgroundColor({ "id": 16777280, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            TabContent.padding({ left: { "id": 16777341, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, right: { "id": 16777341, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            TabContent.backgroundColor({ "id": 16777291, "type": 10001, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             TabContent.tabBar({ builder: () => {
-                    this.TabBuilder.call(this, CommonConstants.MINE_TITLE, CommonConstants.MINE_TAB_INDEX, { "id": 16777387, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777386, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+                    this.TabBuilder.call(this, CommonConstants.MINE_TITLE, CommonConstants.MINE_TAB_INDEX, { "id": 16777423, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777422, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                 } });
         }, TabContent);
         TabContent.pop();
@@ -192,4 +192,4 @@ class MainPage extends ViewPU {
         return "MainPage";
     }
 }
-registerNamedRoute(() => new MainPage(undefined, {}), "", { bundleName: "com.example.component", moduleName: "entry", pagePath: "pages/MainPage", integratedHsp: "false" });
+registerNamedRoute(() => new MainPage(undefined, {}), "", { bundleName: "com.example.component", moduleName: "entry", pagePath: "pages/MainPage", pageFullPath: "entry/src/main/ets/pages/MainPage", integratedHsp: "false" });

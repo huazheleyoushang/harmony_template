@@ -249,6 +249,10 @@
       "value": "Setting the font size"
     },
     {
+      "name": "bluetooth",
+      "value": "蓝牙"
+    },
+    {
       "name": "set_title",
       "value": "Font size settings"
     },

@@ -2,7 +2,7 @@ import CommonConstants from '../common/constants/CommonConstants';
 import Home from "../view/Home"
 import Setting from "../view/Setting"
 import Doc from '../view/Doc';
-import FontSizeUtil, { DEFAULT_FONT_SIZE } from '../common//database/FontSizeUtil';
+import FontSizeUtil, { DEFAULT_FONT_SIZE } from '../common/database/FontSizeUtil';
 
 /**
  * 主页面

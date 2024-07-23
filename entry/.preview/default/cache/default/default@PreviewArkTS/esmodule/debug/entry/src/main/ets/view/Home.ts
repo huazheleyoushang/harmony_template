@@ -73,15 +73,6 @@ export default class Home extends ViewPU {
             Column.width(CommonConstants.FULL_PARENT);
             Column.alignItems(HorizontalAlign.Start);
         }, Column);
-        this.observeComponentCreation2((elmtId, isInitialRender) => {
-            Text.create({ "id": 16777322, "type": 10003, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.debugLine("entry/src/main/ets/view/Home.ets(19:11)");
-            Text.fontWeight(FontWeight.Medium);
-            Text.fontSize({ "id": 16777272, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
-            Text.margin({ top: { "id": 16777264, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-            Text.padding({ left: { "id": 16777265, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
-        }, Text);
-        Text.pop();
         Column.pop();
         this.observeComponentCreation2((elmtId, isInitialRender) => {
             Swiper.create(this.swiperController);

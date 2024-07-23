@@ -48,6 +48,10 @@ export class HomeViewModel {
       settingData.settingName = $r('app.string.home_setting_the_font_size');
       settingData.settingImage = $r('app.media.ic_setting_the_font_size');
       this.settingArr.push(settingData);
+      settingData = new SettingData();
+      settingData.settingName = $r('app.string.bluetooth');
+      settingData.settingImage = $r('app.media.ic_bluetooth');
+      this.settingArr.push(settingData);
     }
     return this.settingArr;
   }
